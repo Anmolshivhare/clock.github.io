@@ -1,0 +1,90 @@
+.container{
+    position: relative;
+    height: 40vw;
+    width: 40vw;
+    background-image: url(watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:auto ;
+   
+
+}
+#hour,#minute,#second{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    height: 30px;
+    width: 30px;
+    top: 182px;
+    left: 191px;
+    transform-origin: bottom;
+}
+#hour{
+    background-color: rgb(37, 37, 37);
+    width: 10px;
+    height: 80px;
+    top: 119px;
+    left: 190px;
+    
+
+}
+#minute{
+    background-color: rgb(34, 33, 33);
+    width: 10px;
+    height: 90px;
+    top: 109px;
+    left: 195px;
+    
+   
+    
+}
+#second{
+    background-color: rgb(53, 52, 52);
+    width: 10px;
+    height: 110px;
+    top: 91px;
+    left: 195px;
+   
+    
+}
+@media (min-width: 200px) and (max-width: 700px) {
+    .container{
+        height: 110vw;
+    width: 110vw;
+    
+    }
+}
+@media (min-width: 750px) and (max-width: 900px) {
+    .container{
+        height: 110vw;
+    width: 110vw;
+    
+    }
+    #hour,#minute,#second{
+        
+       
+       
+        top: 300px;
+        left: 400px;
+        
+    }
+    #hour{
+        height: 100px;
+        top: 300px;
+        left: 400px;
+        
+    }
+    #minute{
+        height: 120px;
+        top: 285px;
+        left: 400px;
+        
+    }
+    #second{
+        height: 180px;
+        top: 230px;
+        left: 400px;
+        
+    }
+}
+    
